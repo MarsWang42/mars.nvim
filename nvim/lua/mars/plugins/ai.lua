@@ -37,8 +37,7 @@ return {
   },
 
   {
-    dir = '~/Code/nvim-gemini-companion',
-    name = 'nvim-gemini-companion',
+    'gutsavgupta/nvim-gemini-companion',
     dependencies = { 'nvim-lua/plenary.nvim' },
     event = 'VeryLazy',
     config = function()
